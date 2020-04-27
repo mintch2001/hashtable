@@ -1,0 +1,16 @@
+﻿<Window x:Class="Hastag.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Hastag"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="addClick" Content="Add" HorizontalAlignment="Left" Margin="143,225,0,0" VerticalAlignment="Top" Height="40" Width="140" Click="addClick_Click" />
+        <Button x:Name="removeClick" Content="Remove" HorizontalAlignment="Left" Margin="304,222,0,0" VerticalAlignment="Top" Height="40" Width="140" Click="removeClick_Click" />
+        <Button x:Name="showClick" Content="Show" HorizontalAlignment="Left" Margin="467,222,0,0" VerticalAlignment="Top" Height="40" Width="140" Click="showClick_Click" />
+        <TextBox x:Name="txtValue" HorizontalAlignment="Left" Margin="139,166,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="468" Height="24"/>
+        <TextBox x:Name="txtKey" HorizontalAlignment="Left" Margin="141,126,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="468" Height="24"/>
+    </Grid>
+</Window>
